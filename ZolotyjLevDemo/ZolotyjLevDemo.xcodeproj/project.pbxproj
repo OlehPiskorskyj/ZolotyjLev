@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037A79C22105364D00BC0C12 /* tx_brick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 037A79512105364D00BC0C12 /* tx_brick.jpg */; };
+		037A79C32105364D00BC0C12 /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79552105364D00BC0C12 /* MainScene.m */; };
+		037A79C42105364D00BC0C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037A79562105364D00BC0C12 /* Assets.xcassets */; };
+		037A79CB2105364D00BC0C12 /* FragmentBrick.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A79652105364D00BC0C12 /* FragmentBrick.glsl */; };
+		037A79CC2105364D00BC0C12 /* VertexBrick.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A79662105364D00BC0C12 /* VertexBrick.glsl */; };
+		037A79CD2105364D00BC0C12 /* BrickRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79672105364D00BC0C12 /* BrickRenderer.m */; };
+		037A79CE2105364D00BC0C12 /* Brick.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79682105364D00BC0C12 /* Brick.m */; };
+		037A79CF2105364D00BC0C12 /* SplashScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037A796D2105364D00BC0C12 /* SplashScreen.xib */; };
+		037A79D02105364D00BC0C12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A796E2105364D00BC0C12 /* AppDelegate.m */; };
+		037A79D12105364D00BC0C12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79712105364D00BC0C12 /* main.m */; };
+		037A79D22105364D00BC0C12 /* GamePad.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79742105364D00BC0C12 /* GamePad.m */; };
+		037A79D32105364D00BC0C12 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79772105364D00BC0C12 /* MainView.m */; };
+		037A79D42105364D00BC0C12 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037A79782105364D00BC0C12 /* MainView.xib */; };
+		037A79D62105364D00BC0C12 /* ZLTextureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79802105364D00BC0C12 /* ZLTextureManager.m */; };
+		037A79D72105364D00BC0C12 /* ZLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79832105364D00BC0C12 /* ZLViewController.m */; };
+		037A79D82105364D00BC0C12 /* ZLScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79852105364D00BC0C12 /* ZLScene.m */; };
+		037A79D92105364D00BC0C12 /* ZLVerticesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79862105364D00BC0C12 /* ZLVerticesData.m */; };
+		037A79DA2105364D00BC0C12 /* ZLTexturePack.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79882105364D00BC0C12 /* ZLTexturePack.m */; };
+		037A79DB2105364D00BC0C12 /* ZLTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79892105364D00BC0C12 /* ZLTexture.m */; };
+		037A79DC2105364D00BC0C12 /* ZLIndicesData.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A798B2105364D00BC0C12 /* ZLIndicesData.m */; };
+		037A79DD2105364D00BC0C12 /* ZLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A798C2105364D00BC0C12 /* ZLNavigationController.m */; };
+		037A79DE2105364D00BC0C12 /* ZLToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A798F2105364D00BC0C12 /* ZLToolbox.m */; };
+		037A79DF2105364D00BC0C12 /* ZLShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79902105364D00BC0C12 /* ZLShader.m */; };
+		037A79E02105364D00BC0C12 /* ZLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79952105364D00BC0C12 /* ZLRenderer.m */; };
+		037A79E12105364D00BC0C12 /* ZLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79962105364D00BC0C12 /* ZLObject.m */; };
+		037A79E22105364D00BC0C12 /* ZLCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79972105364D00BC0C12 /* ZLCamera.m */; };
+		037A79E32105364D00BC0C12 /* ZLLight.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79982105364D00BC0C12 /* ZLLight.m */; };
+		037A79E42105364D00BC0C12 /* VertexColor.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A799D2105364D00BC0C12 /* VertexColor.glsl */; };
+		037A79E52105364D00BC0C12 /* FragmentColor.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A799E2105364D00BC0C12 /* FragmentColor.glsl */; };
+		037A79E62105364D00BC0C12 /* VertexDefault.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A79A02105364D00BC0C12 /* VertexDefault.glsl */; };
+		037A79E72105364D00BC0C12 /* FragmentDefault.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A79A12105364D00BC0C12 /* FragmentDefault.glsl */; };
+		037A79E82105364D00BC0C12 /* VertexTextureDiffuse3.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A79A32105364D00BC0C12 /* VertexTextureDiffuse3.glsl */; };
+		037A79E92105364D00BC0C12 /* FragmentTextureDiffuse2.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A79A42105364D00BC0C12 /* FragmentTextureDiffuse2.glsl */; };
+		037A79EA2105364D00BC0C12 /* FragmentTextureDiffuse3.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A79A52105364D00BC0C12 /* FragmentTextureDiffuse3.glsl */; };
+		037A79EB2105364D00BC0C12 /* VertexTextureDiffuse2.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A79A62105364D00BC0C12 /* VertexTextureDiffuse2.glsl */; };
+		037A79EC2105364D00BC0C12 /* VertexTextureDiffuse1.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A79A72105364D00BC0C12 /* VertexTextureDiffuse1.glsl */; };
+		037A79ED2105364D00BC0C12 /* FragmentTextureDiffuse1.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A79A82105364D00BC0C12 /* FragmentTextureDiffuse1.glsl */; };
+		037A79EE2105364D00BC0C12 /* FragmentTexture.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A79AA2105364D00BC0C12 /* FragmentTexture.glsl */; };
+		037A79EF2105364D00BC0C12 /* VertexTexture.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A79AB2105364D00BC0C12 /* VertexTexture.glsl */; };
+		037A79F02105364D00BC0C12 /* VertexTextureSpecular.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A79AD2105364D00BC0C12 /* VertexTextureSpecular.glsl */; };
+		037A79F12105364D00BC0C12 /* FragmentTextureSpecular.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A79AE2105364D00BC0C12 /* FragmentTextureSpecular.glsl */; };
+		037A79F22105364D00BC0C12 /* VertexColorFog.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A79B02105364D00BC0C12 /* VertexColorFog.glsl */; };
+		037A79F32105364D00BC0C12 /* FragmentColorFog.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 037A79B12105364D00BC0C12 /* FragmentColorFog.glsl */; };
+		037A79F42105364D00BC0C12 /* ZLToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79B52105364D00BC0C12 /* ZLToastManager.m */; };
+		037A79F52105364D00BC0C12 /* ZLToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79B62105364D00BC0C12 /* ZLToast.m */; };
+		037A79F62105364D00BC0C12 /* ZLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79BB2105364D00BC0C12 /* ZLButton.m */; };
+		037A79F72105364D00BC0C12 /* ZLBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79BC2105364D00BC0C12 /* ZLBookCell.m */; };
+		037A79F82105364D00BC0C12 /* ZLGamePad.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79BD2105364D00BC0C12 /* ZLGamePad.m */; };
+		037A79F92105364D00BC0C12 /* ZLBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79BF2105364D00BC0C12 /* ZLBook.m */; };
+		037A79FA2105364D00BC0C12 /* ZolotyjLev.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A79C12105364D00BC0C12 /* ZolotyjLev.m */; };
+		037E80FC2109F4030048AF67 /* ico_logo_horizontal.png in Resources */ = {isa = PBXBuildFile; fileRef = 037E80FA2109F4020048AF67 /* ico_logo_horizontal.png */; };
+		037E80FD2109F4030048AF67 /* ico_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 037E80FB2109F4020048AF67 /* ico_logo.png */; };
+		03A418B82104F27700B8D704 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A418B72104F27700B8D704 /* OpenGLES.framework */; };
+		03A418BA2104F27D00B8D704 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A418B92104F27D00B8D704 /* GLKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		037A79512105364D00BC0C12 /* tx_brick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tx_brick.jpg; sourceTree = "<group>"; };
+		037A79542105364D00BC0C12 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
+		037A79552105364D00BC0C12 /* MainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScene.m; sourceTree = "<group>"; };
+		037A79562105364D00BC0C12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		037A79652105364D00BC0C12 /* FragmentBrick.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentBrick.glsl; sourceTree = "<group>"; };
+		037A79662105364D00BC0C12 /* VertexBrick.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexBrick.glsl; sourceTree = "<group>"; };
+		037A79672105364D00BC0C12 /* BrickRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrickRenderer.m; sourceTree = "<group>"; };
+		037A79682105364D00BC0C12 /* Brick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brick.m; sourceTree = "<group>"; };
+		037A79692105364D00BC0C12 /* Brick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brick.h; sourceTree = "<group>"; };
+		037A796A2105364D00BC0C12 /* BrickRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrickRenderer.h; sourceTree = "<group>"; };
+		037A796C2105364D00BC0C12 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		037A796D2105364D00BC0C12 /* SplashScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashScreen.xib; sourceTree = "<group>"; };
+		037A796E2105364D00BC0C12 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		037A796F2105364D00BC0C12 /* Consts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Consts.h; sourceTree = "<group>"; };
+		037A79702105364D00BC0C12 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		037A79712105364D00BC0C12 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		037A79742105364D00BC0C12 /* GamePad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePad.m; sourceTree = "<group>"; };
+		037A79752105364D00BC0C12 /* GamePad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePad.h; sourceTree = "<group>"; };
+		037A79772105364D00BC0C12 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		037A79782105364D00BC0C12 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		037A79792105364D00BC0C12 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		037A797A2105364D00BC0C12 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037A797C2105364D00BC0C12 /* ZolotyjLev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZolotyjLev.h; sourceTree = "<group>"; };
+		037A797E2105364D00BC0C12 /* ZLTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTexture.h; sourceTree = "<group>"; };
+		037A797F2105364D00BC0C12 /* ZLTexturePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTexturePack.h; sourceTree = "<group>"; };
+		037A79802105364D00BC0C12 /* ZLTextureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTextureManager.m; sourceTree = "<group>"; };
+		037A79812105364D00BC0C12 /* ZLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLNavigationController.h; sourceTree = "<group>"; };
+		037A79822105364D00BC0C12 /* ZLIndicesData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLIndicesData.h; sourceTree = "<group>"; };
+		037A79832105364D00BC0C12 /* ZLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLViewController.m; sourceTree = "<group>"; };
+		037A79842105364D00BC0C12 /* ZLToolbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLToolbox.h; sourceTree = "<group>"; };
+		037A79852105364D00BC0C12 /* ZLScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLScene.m; sourceTree = "<group>"; };
+		037A79862105364D00BC0C12 /* ZLVerticesData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLVerticesData.m; sourceTree = "<group>"; };
+		037A79872105364D00BC0C12 /* ZLShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLShader.h; sourceTree = "<group>"; };
+		037A79882105364D00BC0C12 /* ZLTexturePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTexturePack.m; sourceTree = "<group>"; };
+		037A79892105364D00BC0C12 /* ZLTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLTexture.m; sourceTree = "<group>"; };
+		037A798A2105364D00BC0C12 /* ZLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLViewController.h; sourceTree = "<group>"; };
+		037A798B2105364D00BC0C12 /* ZLIndicesData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLIndicesData.m; sourceTree = "<group>"; };
+		037A798C2105364D00BC0C12 /* ZLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLNavigationController.m; sourceTree = "<group>"; };
+		037A798D2105364D00BC0C12 /* ZLTextureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLTextureManager.h; sourceTree = "<group>"; };
+		037A798E2105364D00BC0C12 /* ZLScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLScene.h; sourceTree = "<group>"; };
+		037A798F2105364D00BC0C12 /* ZLToolbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLToolbox.m; sourceTree = "<group>"; };
+		037A79902105364D00BC0C12 /* ZLShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLShader.m; sourceTree = "<group>"; };
+		037A79912105364D00BC0C12 /* ZLVerticesData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLVerticesData.h; sourceTree = "<group>"; };
+		037A79932105364D00BC0C12 /* ZLLight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLLight.h; sourceTree = "<group>"; };
+		037A79942105364D00BC0C12 /* ZLCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCamera.h; sourceTree = "<group>"; };
+		037A79952105364D00BC0C12 /* ZLRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLRenderer.m; sourceTree = "<group>"; };
+		037A79962105364D00BC0C12 /* ZLObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLObject.m; sourceTree = "<group>"; };
+		037A79972105364D00BC0C12 /* ZLCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCamera.m; sourceTree = "<group>"; };
+		037A79982105364D00BC0C12 /* ZLLight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLLight.m; sourceTree = "<group>"; };
+		037A79992105364D00BC0C12 /* ZLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLRenderer.h; sourceTree = "<group>"; };
+		037A799A2105364D00BC0C12 /* ZLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLObject.h; sourceTree = "<group>"; };
+		037A799D2105364D00BC0C12 /* VertexColor.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexColor.glsl; sourceTree = "<group>"; };
+		037A799E2105364D00BC0C12 /* FragmentColor.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentColor.glsl; sourceTree = "<group>"; };
+		037A79A02105364D00BC0C12 /* VertexDefault.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexDefault.glsl; sourceTree = "<group>"; };
+		037A79A12105364D00BC0C12 /* FragmentDefault.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentDefault.glsl; sourceTree = "<group>"; };
+		037A79A32105364D00BC0C12 /* VertexTextureDiffuse3.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexTextureDiffuse3.glsl; sourceTree = "<group>"; };
+		037A79A42105364D00BC0C12 /* FragmentTextureDiffuse2.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentTextureDiffuse2.glsl; sourceTree = "<group>"; };
+		037A79A52105364D00BC0C12 /* FragmentTextureDiffuse3.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentTextureDiffuse3.glsl; sourceTree = "<group>"; };
+		037A79A62105364D00BC0C12 /* VertexTextureDiffuse2.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexTextureDiffuse2.glsl; sourceTree = "<group>"; };
+		037A79A72105364D00BC0C12 /* VertexTextureDiffuse1.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexTextureDiffuse1.glsl; sourceTree = "<group>"; };
+		037A79A82105364D00BC0C12 /* FragmentTextureDiffuse1.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentTextureDiffuse1.glsl; sourceTree = "<group>"; };
+		037A79AA2105364D00BC0C12 /* FragmentTexture.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentTexture.glsl; sourceTree = "<group>"; };
+		037A79AB2105364D00BC0C12 /* VertexTexture.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexTexture.glsl; sourceTree = "<group>"; };
+		037A79AD2105364D00BC0C12 /* VertexTextureSpecular.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexTextureSpecular.glsl; sourceTree = "<group>"; };
+		037A79AE2105364D00BC0C12 /* FragmentTextureSpecular.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentTextureSpecular.glsl; sourceTree = "<group>"; };
+		037A79B02105364D00BC0C12 /* VertexColorFog.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VertexColorFog.glsl; sourceTree = "<group>"; };
+		037A79B12105364D00BC0C12 /* FragmentColorFog.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentColorFog.glsl; sourceTree = "<group>"; };
+		037A79B32105364D00BC0C12 /* ZLGamePad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLGamePad.h; sourceTree = "<group>"; };
+		037A79B52105364D00BC0C12 /* ZLToastManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLToastManager.m; sourceTree = "<group>"; };
+		037A79B62105364D00BC0C12 /* ZLToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLToast.m; sourceTree = "<group>"; };
+		037A79B72105364D00BC0C12 /* ZLToastManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLToastManager.h; sourceTree = "<group>"; };
+		037A79B82105364D00BC0C12 /* ZLToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLToast.h; sourceTree = "<group>"; };
+		037A79B92105364D00BC0C12 /* ZLBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLBookCell.h; sourceTree = "<group>"; };
+		037A79BA2105364D00BC0C12 /* ZLBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLBook.h; sourceTree = "<group>"; };
+		037A79BB2105364D00BC0C12 /* ZLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLButton.m; sourceTree = "<group>"; };
+		037A79BC2105364D00BC0C12 /* ZLBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLBookCell.m; sourceTree = "<group>"; };
+		037A79BD2105364D00BC0C12 /* ZLGamePad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLGamePad.m; sourceTree = "<group>"; };
+		037A79BE2105364D00BC0C12 /* ZLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLButton.h; sourceTree = "<group>"; };
+		037A79BF2105364D00BC0C12 /* ZLBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLBook.m; sourceTree = "<group>"; };
+		037A79C02105364D00BC0C12 /* ZLConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLConsts.h; sourceTree = "<group>"; };
+		037A79C12105364D00BC0C12 /* ZolotyjLev.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZolotyjLev.m; sourceTree = "<group>"; };
+		037E80FA2109F4020048AF67 /* ico_logo_horizontal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_logo_horizontal.png; sourceTree = "<group>"; };
+		037E80FB2109F4020048AF67 /* ico_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_logo.png; sourceTree = "<group>"; };
+		03A418B72104F27700B8D704 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		03A418B92104F27D00B8D704 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		03B7459C2104DE5A005626EB /* ZolotyjLevDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZolotyjLevDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03B745992104DE5A005626EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A418B82104F27700B8D704 /* OpenGLES.framework in Frameworks */,
+				03A418BA2104F27D00B8D704 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037A794F2105364D00BC0C12 /* ZolotyjLevDemo */ = {
+			isa = PBXGroup;
+			children = (
+				037A797B2105364D00BC0C12 /* ZolotyjLev */,
+				037A79502105364D00BC0C12 /* Textures */,
+				037A79522105364D00BC0C12 /* Scenes */,
+				037A796B2105364D00BC0C12 /* Common */,
+				037A79572105364D00BC0C12 /* Objects */,
+				037A79722105364D00BC0C12 /* UserInterface */,
+				037A79562105364D00BC0C12 /* Assets.xcassets */,
+				037A797A2105364D00BC0C12 /* Info.plist */,
+			);
+			path = ZolotyjLevDemo;
+			sourceTree = "<group>";
+		};
+		037A79502105364D00BC0C12 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				037A79512105364D00BC0C12 /* tx_brick.jpg */,
+			);
+			path = Textures;
+			sourceTree = "<group>";
+		};
+		037A79522105364D00BC0C12 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				037A79532105364D00BC0C12 /* MainScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		037A79532105364D00BC0C12 /* MainScene */ = {
+			isa = PBXGroup;
+			children = (
+				037A79542105364D00BC0C12 /* MainScene.h */,
+				037A79552105364D00BC0C12 /* MainScene.m */,
+			);
+			path = MainScene;
+			sourceTree = "<group>";
+		};
+		037A79572105364D00BC0C12 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				037A79642105364D00BC0C12 /* Brick */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		037A79642105364D00BC0C12 /* Brick */ = {
+			isa = PBXGroup;
+			children = (
+				037A79692105364D00BC0C12 /* Brick.h */,
+				037A79682105364D00BC0C12 /* Brick.m */,
+				037A796A2105364D00BC0C12 /* BrickRenderer.h */,
+				037A79672105364D00BC0C12 /* BrickRenderer.m */,
+				037A79662105364D00BC0C12 /* VertexBrick.glsl */,
+				037A79652105364D00BC0C12 /* FragmentBrick.glsl */,
+			);
+			path = Brick;
+			sourceTree = "<group>";
+		};
+		037A796B2105364D00BC0C12 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				037A796C2105364D00BC0C12 /* AppDelegate.h */,
+				037A796E2105364D00BC0C12 /* AppDelegate.m */,
+				037A79702105364D00BC0C12 /* PrefixHeader.pch */,
+				037A796F2105364D00BC0C12 /* Consts.h */,
+				037A79712105364D00BC0C12 /* main.m */,
+				037A796D2105364D00BC0C12 /* SplashScreen.xib */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		037A79722105364D00BC0C12 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				037A79732105364D00BC0C12 /* Controls */,
+				037A79762105364D00BC0C12 /* MainView */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		037A79732105364D00BC0C12 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				037A79752105364D00BC0C12 /* GamePad.h */,
+				037A79742105364D00BC0C12 /* GamePad.m */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		037A79762105364D00BC0C12 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				037A79792105364D00BC0C12 /* MainView.h */,
+				037A79772105364D00BC0C12 /* MainView.m */,
+				037A79782105364D00BC0C12 /* MainView.xib */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		037A797B2105364D00BC0C12 /* ZolotyjLev */ = {
+			isa = PBXGroup;
+			children = (
+				037E80F92109F4020048AF67 /* Resources */,
+				037A797D2105364D00BC0C12 /* Common */,
+				037A79922105364D00BC0C12 /* GameObjects */,
+				037A799B2105364D00BC0C12 /* Shaders */,
+				037A79B22105364D00BC0C12 /* UserInterface */,
+				037A797C2105364D00BC0C12 /* ZolotyjLev.h */,
+				037A79C12105364D00BC0C12 /* ZolotyjLev.m */,
+				037A79C02105364D00BC0C12 /* ZLConsts.h */,
+			);
+			path = ZolotyjLev;
+			sourceTree = "<group>";
+		};
+		037A797D2105364D00BC0C12 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				037A797E2105364D00BC0C12 /* ZLTexture.h */,
+				037A79892105364D00BC0C12 /* ZLTexture.m */,
+				037A797F2105364D00BC0C12 /* ZLTexturePack.h */,
+				037A79882105364D00BC0C12 /* ZLTexturePack.m */,
+				037A798D2105364D00BC0C12 /* ZLTextureManager.h */,
+				037A79802105364D00BC0C12 /* ZLTextureManager.m */,
+				037A79812105364D00BC0C12 /* ZLNavigationController.h */,
+				037A798C2105364D00BC0C12 /* ZLNavigationController.m */,
+				037A79822105364D00BC0C12 /* ZLIndicesData.h */,
+				037A798B2105364D00BC0C12 /* ZLIndicesData.m */,
+				037A798A2105364D00BC0C12 /* ZLViewController.h */,
+				037A79832105364D00BC0C12 /* ZLViewController.m */,
+				037A79842105364D00BC0C12 /* ZLToolbox.h */,
+				037A798F2105364D00BC0C12 /* ZLToolbox.m */,
+				037A798E2105364D00BC0C12 /* ZLScene.h */,
+				037A79852105364D00BC0C12 /* ZLScene.m */,
+				037A79872105364D00BC0C12 /* ZLShader.h */,
+				037A79902105364D00BC0C12 /* ZLShader.m */,
+				037A79912105364D00BC0C12 /* ZLVerticesData.h */,
+				037A79862105364D00BC0C12 /* ZLVerticesData.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		037A79922105364D00BC0C12 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				037A79932105364D00BC0C12 /* ZLLight.h */,
+				037A79982105364D00BC0C12 /* ZLLight.m */,
+				037A79942105364D00BC0C12 /* ZLCamera.h */,
+				037A79972105364D00BC0C12 /* ZLCamera.m */,
+				037A79992105364D00BC0C12 /* ZLRenderer.h */,
+				037A79952105364D00BC0C12 /* ZLRenderer.m */,
+				037A799A2105364D00BC0C12 /* ZLObject.h */,
+				037A79962105364D00BC0C12 /* ZLObject.m */,
+			);
+			path = GameObjects;
+			sourceTree = "<group>";
+		};
+		037A799B2105364D00BC0C12 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				037A799C2105364D00BC0C12 /* Color */,
+				037A799F2105364D00BC0C12 /* Default */,
+				037A79A22105364D00BC0C12 /* TextureDiffuse */,
+				037A79A92105364D00BC0C12 /* Texture */,
+				037A79AC2105364D00BC0C12 /* TextureSpecular */,
+				037A79AF2105364D00BC0C12 /* ColorFog */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		037A799C2105364D00BC0C12 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				037A799D2105364D00BC0C12 /* VertexColor.glsl */,
+				037A799E2105364D00BC0C12 /* FragmentColor.glsl */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		037A799F2105364D00BC0C12 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				037A79A02105364D00BC0C12 /* VertexDefault.glsl */,
+				037A79A12105364D00BC0C12 /* FragmentDefault.glsl */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		037A79A22105364D00BC0C12 /* TextureDiffuse */ = {
+			isa = PBXGroup;
+			children = (
+				037A79A32105364D00BC0C12 /* VertexTextureDiffuse3.glsl */,
+				037A79A42105364D00BC0C12 /* FragmentTextureDiffuse2.glsl */,
+				037A79A52105364D00BC0C12 /* FragmentTextureDiffuse3.glsl */,
+				037A79A62105364D00BC0C12 /* VertexTextureDiffuse2.glsl */,
+				037A79A72105364D00BC0C12 /* VertexTextureDiffuse1.glsl */,
+				037A79A82105364D00BC0C12 /* FragmentTextureDiffuse1.glsl */,
+			);
+			path = TextureDiffuse;
+			sourceTree = "<group>";
+		};
+		037A79A92105364D00BC0C12 /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				037A79AA2105364D00BC0C12 /* FragmentTexture.glsl */,
+				037A79AB2105364D00BC0C12 /* VertexTexture.glsl */,
+			);
+			path = Texture;
+			sourceTree = "<group>";
+		};
+		037A79AC2105364D00BC0C12 /* TextureSpecular */ = {
+			isa = PBXGroup;
+			children = (
+				037A79AD2105364D00BC0C12 /* VertexTextureSpecular.glsl */,
+				037A79AE2105364D00BC0C12 /* FragmentTextureSpecular.glsl */,
+			);
+			path = TextureSpecular;
+			sourceTree = "<group>";
+		};
+		037A79AF2105364D00BC0C12 /* ColorFog */ = {
+			isa = PBXGroup;
+			children = (
+				037A79B02105364D00BC0C12 /* VertexColorFog.glsl */,
+				037A79B12105364D00BC0C12 /* FragmentColorFog.glsl */,
+			);
+			path = ColorFog;
+			sourceTree = "<group>";
+		};
+		037A79B22105364D00BC0C12 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				037A79B42105364D00BC0C12 /* ZLToast */,
+				037A79B32105364D00BC0C12 /* ZLGamePad.h */,
+				037A79BD2105364D00BC0C12 /* ZLGamePad.m */,
+				037A79B92105364D00BC0C12 /* ZLBookCell.h */,
+				037A79BC2105364D00BC0C12 /* ZLBookCell.m */,
+				037A79BA2105364D00BC0C12 /* ZLBook.h */,
+				037A79BF2105364D00BC0C12 /* ZLBook.m */,
+				037A79BB2105364D00BC0C12 /* ZLButton.m */,
+				037A79BE2105364D00BC0C12 /* ZLButton.h */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		037A79B42105364D00BC0C12 /* ZLToast */ = {
+			isa = PBXGroup;
+			children = (
+				037A79B52105364D00BC0C12 /* ZLToastManager.m */,
+				037A79B62105364D00BC0C12 /* ZLToast.m */,
+				037A79B72105364D00BC0C12 /* ZLToastManager.h */,
+				037A79B82105364D00BC0C12 /* ZLToast.h */,
+			);
+			path = ZLToast;
+			sourceTree = "<group>";
+		};
+		037E80F92109F4020048AF67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				037E80FA2109F4020048AF67 /* ico_logo_horizontal.png */,
+				037E80FB2109F4020048AF67 /* ico_logo.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		03A418B62104F27600B8D704 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03A418B72104F27700B8D704 /* OpenGLES.framework */,
+				03A418B92104F27D00B8D704 /* GLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03B745932104DE5A005626EB = {
+			isa = PBXGroup;
+			children = (
+				037A794F2105364D00BC0C12 /* ZolotyjLevDemo */,
+				03B7459D2104DE5A005626EB /* Products */,
+				03A418B62104F27600B8D704 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03B7459D2104DE5A005626EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03B7459C2104DE5A005626EB /* ZolotyjLevDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03B7459B2104DE5A005626EB /* ZolotyjLevDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B745B22104DE5B005626EB /* Build configuration list for PBXNativeTarget "ZolotyjLevDemo" */;
+			buildPhases = (
+				03B745982104DE5A005626EB /* Sources */,
+				03B745992104DE5A005626EB /* Frameworks */,
+				03B7459A2104DE5A005626EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZolotyjLevDemo;
+			productName = ZolotyjLevTest;
+			productReference = 03B7459C2104DE5A005626EB /* ZolotyjLevDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03B745942104DE5A005626EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = MetallicRain;
+				TargetAttributes = {
+					03B7459B2104DE5A005626EB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 03B745972104DE5A005626EB /* Build configuration list for PBXProject "ZolotyjLevDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03B745932104DE5A005626EB;
+			productRefGroup = 03B7459D2104DE5A005626EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03B7459B2104DE5A005626EB /* ZolotyjLevDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03B7459A2104DE5A005626EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037A79EE2105364D00BC0C12 /* FragmentTexture.glsl in Resources */,
+				037A79E42105364D00BC0C12 /* VertexColor.glsl in Resources */,
+				037A79CC2105364D00BC0C12 /* VertexBrick.glsl in Resources */,
+				037A79CB2105364D00BC0C12 /* FragmentBrick.glsl in Resources */,
+				037A79E92105364D00BC0C12 /* FragmentTextureDiffuse2.glsl in Resources */,
+				037A79E62105364D00BC0C12 /* VertexDefault.glsl in Resources */,
+				037A79F22105364D00BC0C12 /* VertexColorFog.glsl in Resources */,
+				037A79F02105364D00BC0C12 /* VertexTextureSpecular.glsl in Resources */,
+				037A79C42105364D00BC0C12 /* Assets.xcassets in Resources */,
+				037A79E82105364D00BC0C12 /* VertexTextureDiffuse3.glsl in Resources */,
+				037E80FD2109F4030048AF67 /* ico_logo.png in Resources */,
+				037A79EB2105364D00BC0C12 /* VertexTextureDiffuse2.glsl in Resources */,
+				037A79F12105364D00BC0C12 /* FragmentTextureSpecular.glsl in Resources */,
+				037E80FC2109F4030048AF67 /* ico_logo_horizontal.png in Resources */,
+				037A79CF2105364D00BC0C12 /* SplashScreen.xib in Resources */,
+				037A79C22105364D00BC0C12 /* tx_brick.jpg in Resources */,
+				037A79ED2105364D00BC0C12 /* FragmentTextureDiffuse1.glsl in Resources */,
+				037A79F32105364D00BC0C12 /* FragmentColorFog.glsl in Resources */,
+				037A79EA2105364D00BC0C12 /* FragmentTextureDiffuse3.glsl in Resources */,
+				037A79EC2105364D00BC0C12 /* VertexTextureDiffuse1.glsl in Resources */,
+				037A79EF2105364D00BC0C12 /* VertexTexture.glsl in Resources */,
+				037A79D42105364D00BC0C12 /* MainView.xib in Resources */,
+				037A79E72105364D00BC0C12 /* FragmentDefault.glsl in Resources */,
+				037A79E52105364D00BC0C12 /* FragmentColor.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B745982104DE5A005626EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037A79DF2105364D00BC0C12 /* ZLShader.m in Sources */,
+				037A79D02105364D00BC0C12 /* AppDelegate.m in Sources */,
+				037A79E12105364D00BC0C12 /* ZLObject.m in Sources */,
+				037A79FA2105364D00BC0C12 /* ZolotyjLev.m in Sources */,
+				037A79D72105364D00BC0C12 /* ZLViewController.m in Sources */,
+				037A79E32105364D00BC0C12 /* ZLLight.m in Sources */,
+				037A79DE2105364D00BC0C12 /* ZLToolbox.m in Sources */,
+				037A79DD2105364D00BC0C12 /* ZLNavigationController.m in Sources */,
+				037A79DB2105364D00BC0C12 /* ZLTexture.m in Sources */,
+				037A79D22105364D00BC0C12 /* GamePad.m in Sources */,
+				037A79F72105364D00BC0C12 /* ZLBookCell.m in Sources */,
+				037A79E22105364D00BC0C12 /* ZLCamera.m in Sources */,
+				037A79D12105364D00BC0C12 /* main.m in Sources */,
+				037A79CE2105364D00BC0C12 /* Brick.m in Sources */,
+				037A79D32105364D00BC0C12 /* MainView.m in Sources */,
+				037A79E02105364D00BC0C12 /* ZLRenderer.m in Sources */,
+				037A79D82105364D00BC0C12 /* ZLScene.m in Sources */,
+				037A79F42105364D00BC0C12 /* ZLToastManager.m in Sources */,
+				037A79DC2105364D00BC0C12 /* ZLIndicesData.m in Sources */,
+				037A79F52105364D00BC0C12 /* ZLToast.m in Sources */,
+				037A79D62105364D00BC0C12 /* ZLTextureManager.m in Sources */,
+				037A79DA2105364D00BC0C12 /* ZLTexturePack.m in Sources */,
+				037A79F92105364D00BC0C12 /* ZLBook.m in Sources */,
+				037A79F62105364D00BC0C12 /* ZLButton.m in Sources */,
+				037A79D92105364D00BC0C12 /* ZLVerticesData.m in Sources */,
+				037A79F82105364D00BC0C12 /* ZLGamePad.m in Sources */,
+				037A79CD2105364D00BC0C12 /* BrickRenderer.m in Sources */,
+				037A79C32105364D00BC0C12 /* MainScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03B745B02104DE5B005626EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03B745B12104DE5B005626EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03B745B32104DE5B005626EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7U54V7WA8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZolotyjLevDemo/Common/PrefixHeader.pch";
+				INFOPLIST_FILE = ZolotyjLevDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MetallicRain.ZolotyjLevDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		03B745B42104DE5B005626EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7U54V7WA8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZolotyjLevDemo/Common/PrefixHeader.pch";
+				INFOPLIST_FILE = ZolotyjLevDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MetallicRain.ZolotyjLevDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B745972104DE5A005626EB /* Build configuration list for PBXProject "ZolotyjLevDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B745B02104DE5B005626EB /* Debug */,
+				03B745B12104DE5B005626EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B745B22104DE5B005626EB /* Build configuration list for PBXNativeTarget "ZolotyjLevDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B745B32104DE5B005626EB /* Debug */,
+				03B745B42104DE5B005626EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03B745942104DE5A005626EB /* Project object */;
+}

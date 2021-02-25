@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainView">
+            <connections>
+                <outlet property="view" destination="1" id="3"/>
+                <outlet property="viewContainerGL" destination="XOC-K4-JVN" id="Uz8-AW-oqe"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view autoresizesSubviews="NO" contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ENJ-j7-Uwh">
+                    <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                    <subviews>
+                        <view autoresizesSubviews="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XOC-K4-JVN">
+                            <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="XOC-K4-JVN" secondAttribute="trailing" id="WYS-ZC-bwU"/>
+                        <constraint firstItem="XOC-K4-JVN" firstAttribute="top" secondItem="ENJ-j7-Uwh" secondAttribute="top" id="ept-Ma-mKH"/>
+                        <constraint firstItem="XOC-K4-JVN" firstAttribute="leading" secondItem="ENJ-j7-Uwh" secondAttribute="leading" id="foa-Vb-Zjb"/>
+                        <constraint firstAttribute="bottom" secondItem="XOC-K4-JVN" secondAttribute="bottom" id="jUW-wv-MhO"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ENJ-j7-Uwh" firstAttribute="trailing" secondItem="Ck0-52-OUb" secondAttribute="trailing" id="KRa-cu-SYD"/>
+                <constraint firstAttribute="bottom" secondItem="ENJ-j7-Uwh" secondAttribute="bottom" id="cUs-K6-5HR"/>
+                <constraint firstItem="ENJ-j7-Uwh" firstAttribute="top" secondItem="1" secondAttribute="top" id="guK-Yo-mqo"/>
+                <constraint firstItem="ENJ-j7-Uwh" firstAttribute="leading" secondItem="Ck0-52-OUb" secondAttribute="leading" id="zTT-lp-P7U"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Ck0-52-OUb"/>
+            <point key="canvasLocation" x="-204" y="-485"/>
+        </view>
+    </objects>
+</document>
